@@ -1,0 +1,156 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #777;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    box-shadow: 0px 11px 39px 8px rgba(0,0,0,0.15);
+
+}
+
+main {
+    margin: 20px;
+}
+
+.logo {
+    display: flex;
+    text-transform: uppercase;
+    
+}
+
+h1 {
+    font-size: 30px;
+    height: 32px;
+  
+}
+
+.logo2 {
+    font-size: 10px;
+    font-weight: 400;
+    height: 22px;
+    margin-top: 15px;
+    margin-left: 5px;
+        
+}
+
+.principal {
+    background-image: url(../img/lovt1.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 80px 90px;
+    width: 1010px;
+    height: 300px;
+    
+    
+}
+
+.carrosel {
+    display: flex;
+    margin: 20px 20px;
+
+    
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: justify;
+    margin: 0 60px;
+    background-color: #eee;
+
+}
+
+.preco {
+    font-size: 25px;
+}
+button {
+    background-color: aqua;
+    text-align: center;
+    color: black;
+    border: white solid 1px;
+    justify-content: center;
+    height: 20px;
+}
+
+.flag {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.setores {
+    margin-bottom: 40px;
+}
+
+.setores p {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 190px;
+    text-shadow: 4px 3px 0 black;
+}
+
+.industrial {
+    background-image: url(../img/industrial.svg);
+    justify-content: center;
+    margin-left: 80px;
+    width: 1030px;
+    height: 80px;
+    opacity: 0.6;
+    
+}
+
+.modern {
+    background-image: url(../img/modern.svg);
+    justify-content: center;
+    margin-left: 80px;
+    width: 1030px;
+    height: 80px;
+    opacity: 0.6;
+}
+
+.classic {
+    background-image: url(../img/classic.svg);
+    justify-content: center;
+    margin-left: 80px;
+    width: 1030px;
+    height: 80px;
+    opacity: 0.6;
+}
+
+footer{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.address {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.medias {
+    margin-right: 10px;
+}
